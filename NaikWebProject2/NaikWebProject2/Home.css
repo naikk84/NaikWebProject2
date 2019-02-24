@@ -1,0 +1,107 @@
+﻿body {
+    background-color: #87ceeb;
+    font-size: 18px;
+    text-indent: 50px;
+    color: white;
+    font-family: Comic Sans MS;
+}
+h2 {
+    color: white;
+    font-family: Comic Sans MS;
+    text-align: center;
+  }
+h3 {
+    color: white;
+    font-family: Comic Sans MS;
+    text-align:center;
+  }
+
+
+.calculation{
+    width: auto;
+    position:relative;
+    
+}
+.image{
+    width: 40%;
+    float:left;
+    position:inherit;
+}
+
+table, th, td {
+    border: 3px solid;
+    border-color: #1e90ff;
+    font-family: Comic Sans MS;
+    table-layout: auto;
+}
+
+#top {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    display: block;
+    min-width: 164px;
+    max-width: 100%;
+    font-family: Comic Sans MS;
+    
+}
+#headerimage{
+    float: left;
+    
+}
+#firstrow{
+    text-align:center;
+}
+
+
+#Calculate {
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+}
+#Clear {
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    display: inline-block;
+}
+#Calculate:hover {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(255,255,255,0.0), 0 6px 20px 0 rgba(255,255,255,0.0);
+    
+}
+#Clear:hover {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(255,255,255,0.0), 0 6px 20px 0 rgba(255,255,255,0.0);
+}
+footer {
+    width: 100%;
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    height: 30px;
+    margin-top:260px;
+    position:relative;
+}
+.history {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Comic Sans MS;
+    position:relative;
+}
+#Label3{
+    font-weight:bold;
+}
